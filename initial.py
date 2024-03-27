@@ -33,7 +33,15 @@ MyList[7]= "Mercedes"
 #print(MyList[1:7])
 #print(type(MyList))
 #user input 
-Name = input("Enter your name: ")
-Age = int(input("How old are you? :"))
-print("My name is  ", Name)
-print("I am ", Age," years old.")
+# Name = input("Enter your name: ")
+# Age = int(input("How old are you? :"))
+# # print("My name is  ", Name)
+# print("I am ", Age," years old.")
+
+StudentName = 'Davis Were' # str
+StudentClass = 'Computer Science'
+StudentGrade = 80.5 # type float
+StudentAge = 18 # type int
+StudentAdmissionNumber = 'bsclmr178221'
+print(StudentName, StudentClass, StudentGrade, StudentAdmissionNumber)
+print(type(StudentName))    
