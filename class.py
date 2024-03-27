@@ -34,4 +34,8 @@ Student1 = StudentScores(34.5,67,89,70)
 Student2 =StudentScores(70,70,70,70)
 Student2.ScoreAvarage()
 
+""" 1. create a an object called Vehicle, the attributes of the vehicle includes, brake, wheel, fuel,vehicletype, then print out hte details of thevehicle
+2. StudentScore, write a function within the class to get the product of the scores
+
+"""
 
