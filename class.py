@@ -38,4 +38,36 @@ Student2.ScoreAvarage()
 2. StudentScore, write a function within the class to get the product of the scores
 
 """
+# Inheritance allows us to define a class that inherits all the methods and properties \n 
+#from another class. This means we can create new classes based on  existing ones. \n
+
+class Person:
+    def __init__(self,first_name, last_name):
+        self.first_name =first_name
+        self.last_name = last_name
+
+    def PrintNames(self):
+        print(self.first_name, self.last_name)
+
+person1= Person('Davis', 'Were')
+person2 = Person("David", "Oludare")
+person1.PrintNames()
+
+# Create a class named Student, which will inherit the
+# properties and methods from the Person class:
+class Student(Person):
+    def __init__(self, first_name, last_name, regno):
+        super().__init__(first_name, last_name)
+        self.regno= regno
+student1= Student("kombo", 'joseph', 'bsclmrw33445')
+print(student1.first_name,  student1.last_name,student1.regno)
+
+class  Employee(Person): #Employee is derived from person
+    pass
+
+employee1 = Employee("John","Doe")
+# print(employee1.first_name)
+employee1.PrintNames()
+
+
 
