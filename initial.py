@@ -44,4 +44,24 @@ StudentGrade = 80.5 # type float
 StudentAge = 18 # type int
 StudentAdmissionNumber = 'bsclmr178221'
 print(StudentName, StudentClass, StudentGrade, StudentAdmissionNumber)
-print(type(StudentName))    
+print(type(StudentName))
+
+# def GreaterNumber(num1, num2, num3):
+#     if num1 > num2 and num1 > num3:
+#         return num1
+#     elif num2 > num1 and num2 > num3:
+#         return num2
+#     else:
+#         return num3
+
+# print(GreaterNumber(7,4,6))
+
+def GreaterNumber(num1,num2,num3):
+    if num1> num2 and num1>num3:
+        return num1
+    elif  num2>num1 and num2>num3:
+        return num2
+    else: 
+        return num3
+    
+print(GreaterNumber(100,56,91))
