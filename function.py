@@ -30,3 +30,12 @@ def Name(*names):
 
 #javascript function Greet{console.log("Hello" + name)};
     
+#write a function that returns only even numbers in a list
+
+def Even_numbers(Our_list):
+    for i in  Our_list:
+        if i % 2 == 0:
+            print(i)
+
+Even_numbers([1,2,3,6,7,8,9,10,12,4]) # we the output to be 2,6,8,10 and 12
+    

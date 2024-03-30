@@ -43,8 +43,8 @@ StudentClass = 'Computer Science'
 StudentGrade = 80.5 # type float
 StudentAge = 18 # type int
 StudentAdmissionNumber = 'bsclmr178221'
-print(StudentName, StudentClass, StudentGrade, StudentAdmissionNumber)
-print(type(StudentName))
+# print(StudentName, StudentClass, StudentGrade, StudentAdmissionNumber)
+# print(type(StudentName))
 
 # def GreaterNumber(num1, num2, num3):
 #     if num1 > num2 and num1 > num3:
@@ -64,4 +64,14 @@ def GreaterNumber(num1,num2,num3):
     else: 
         return num3
     
-print(GreaterNumber(100,56,91))
+# print(GreaterNumber(100,56,91))
+
+# use of  / and %   operator
+
+print(4/2)
+print(4%2) # output is  0,   because the division result is an integer
+          # so there is no remainder left to find out
+print(10//3) # this will give us the quotient only , it does not show any decimal places
+            # even though the actual answer has a decimal part
+print(10%3) # this gives us the remainder after dividing the number by another number
+             # in this case we get 1 as the output because the remainder is one
